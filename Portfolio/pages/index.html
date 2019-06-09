@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Portfolio of Gabin Daupley</title>
+		<meta name="description" content="Portfolio of Gabin Daupley" />
+		<link rel="shortcut icon" href="favicon.ico">
+		<link href="https://fonts.googleapis.com/css?family=Cardo|Nunito+Sans" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="../css/style.css" />
+	</head>
+	<body class="demo-1">
+		<main>
+			<div class="frame">
+				<div class="frame__title-wrap">
+					<div class="frame__links">
+						<a href="https://dribbble.com/ak_u">Dribbble</a>
+						<a href="https://www.behance.net/gabindaupley">Behance</a>
+						<a href="https://github.com/gabingabin">GitHub</a>
+					</div>
+				</div>
+				<div class="frame__demos">
+					<a href="index.html" class="frame__demo frame__demo--current">Home</a>
+					<a href="About.html" class="frame__demo">About</a>
+				</div>
+				<div class="frame__credits">
+					<h4 class="frame__heading">Designer</h4>
+					<span class="frame__text">Gabin Daupley</span>
+				</div>
+				<div class="frame__contact">
+					<h4 class="frame__heading">Contact</h4>
+					<span class="frame__text">gabin.daupley@hetic.net</span>
+					<span class="frame__text">06.83.38.04.68</span>
+				</div>
+			</div>
+			<div class="content">
+				<svg class="distort" width="350" height="450" viewBox="0 0 350 450">
+					<filter id="distortionFilter">
+						<feTurbulence type="turbulence" baseFrequency="0.07 0.01" numOctaves="5" seed="2" stitchTiles="stitch" x="0%" y="0%" width="100%" height="100%" result="noise"/>
+						<feDisplacementMap in="SourceGraphic" in2="noise" scale="0" xChannelSelector="R" yChannelSelector="B" x="0%" y="0%" width="100%" height="100%" filterUnits="userSpaceOnUse"/>
+					</filter>
+					<g filter="url(#distortionFilter)">
+						<image class="distort__img" x="50" y="50" xlink:href="../img/petalstream.jpg" height="350" width="250"/>
+						<image class="distort__img" x="50" y="50" xlink:href="../img/lynx.jpg" height="350" width="250"/>
+						<image class="distort__img" x="50" y="50" xlink:href="../img/airbnb.jpg" height="350" width="250"/>
+						<image class="distort__img" x="50" y="50" xlink:href="../img/hyppocampus.jpg" height="350" width="250"/>
+					</g>
+				</svg>
+				<nav class="menu">
+					<a href="#" class="menu__link">Petalstream</a>
+					<a href="https://www.behance.net/gallery/81346005/Wikipedia-refonte" class="menu__link">Wikipedia</a>
+					<a href="Airbnb.html" class="menu__link">Airbnb</a>
+					<a href="https://www.behance.net/gallery/81346459/Relist" class="menu__link">RedList</a>
+				</nav>
+			</div>
+		</main>
+		<script src="../js/charming.min.js"></script>
+		<script src="../js/TweenMax.min.js"></script>
+		<script src="../js/script.js"></script>
+	</body>
+</html>
