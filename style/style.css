@@ -16,7 +16,8 @@ body {
 	--color-link-hover: #333;
 	--color-content-link: #000;
 	--color-content-link-hover: #e2af68;
-	--color-heading: #d1cfcf;
+	--color-heading: #000;
+	--color-headings: rgb(170, 165, 165);
 	--font-content: Cardo;
 	color: var(--color-text);
 	background-color: var(--color-bg);
@@ -83,8 +84,10 @@ a:focus {
 	color: var(--color-heading);
 }
 
-.frame__text + .frame__heading {
-	margin: 2rem 0 0 0;
+.frame__headings {
+	font-weight: normal;
+	margin: 0;
+	color: var(--color-headings);
 }
 
 .frame__text + .frame__text {
@@ -155,7 +158,6 @@ a:focus {
 	border-color: currentColor;
 }
 
-
 @media screen and (min-width: 53em) {
 	body {
 		overflow: hidden;
@@ -173,7 +175,7 @@ a:focus {
 		height: 100vh;
 		padding: 2rem;
 		pointer-events: none;
-		grid-template-columns: 20% 80%;
+		grid-template-columns: 11% 89%;
 		grid-template-rows: 2rem auto auto;
 		grid-template-areas: 'credits demos'
 							 'credits photography'
@@ -222,19 +224,6 @@ a:focus {
 		top: calc(100% - 1vh);
 	}
 }
-	.wikipedia {
-		display: flex;
-		flex-direction: wrap;
-		justify-content: center;
-		align-content: center;
-		width: 200px;
-		height: 200px;
-		
-	}
-	.wikipedia img {
-		max-width: 100%;
-		height: auto;
-}
 	.coming {
 		display: flex;
 		flex-wrap: wrap;
@@ -243,4 +232,18 @@ a:focus {
 		height: 100vh;
 		font-family: var(--font-content);
 		font-size: 9vh;
+	}
+	.content-about {
+		display: flex;
+		flex-direction: column;
+		width: 100vh;
+		margin-top: -10%;
+
+	}
+	.title {
+		font-size: 6vh;
+		font-family: var(--font-content);
+}
+	.paragraph {	
+		font-size: 2.5vh;
 	}
