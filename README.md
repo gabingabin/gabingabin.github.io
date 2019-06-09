@@ -11,6 +11,10 @@ Voici mon portfolio
 
 - On y retrouve un petit descriptif de qui je suis. 
 
+## lien vers le site & github
+
+- site : https://gabingabin.github.io/
+- github : https://github.com/gabingabin/gabingabin.github.io
 
 
 
