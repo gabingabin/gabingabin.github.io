@@ -1,6 +1,6 @@
 # Mon portfolio
 
-Voici mon portfolio
+Voici mon portfolio construit avec la librairie TwinMax
 
 ## Home
 
