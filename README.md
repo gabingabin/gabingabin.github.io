@@ -8,7 +8,8 @@ Voici mon portfolio
 - Avec également les liens vers mes différents réseaux sociaux.
 
 ## About
-On y retrouve un petit descriptif de qui je suis. 
+
+- On y retrouve un petit descriptif de qui je suis. 
 
 
 
